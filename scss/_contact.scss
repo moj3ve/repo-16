@@ -52,6 +52,14 @@ section.contact {
                     }
                 }
             }
+            &.social-reddit {
+                a {
+                    background-color: $brand-reddit;
+                    &:hover {
+                        background-color: darken($brand-reddit, 5%);
+                    }
+                }
+            }
         }
     }
 }

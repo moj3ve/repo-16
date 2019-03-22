@@ -373,6 +373,22 @@ section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
 
+section.contact ul.list-social li.social-paypal a {
+  background-color: #005ea5;
+}
+
+section.contact ul.list-social li.social-paypal a:hover {
+  background-color: #00529b;
+}
+
+section.contact ul.list-social li.social-reddit a {
+  background-color: #ff4500;
+}
+
+section.contact ul.list-social li.social-reddit a:hover {
+  background-color: #ef3400;
+}
+
 footer {
   padding: 25px 0;
   text-align: center;
