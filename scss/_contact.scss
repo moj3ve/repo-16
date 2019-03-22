@@ -44,6 +44,14 @@ section.contact {
                     }
                 }
             }
+            &.social-paypal {
+                a {
+                    background-color: $brand-paypal;
+                    &:hover {
+                        background-color: darken($brand-paypal, 5%);
+                    }
+                }
+            }
         }
     }
 }
