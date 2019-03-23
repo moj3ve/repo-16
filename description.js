@@ -7,8 +7,16 @@ function iOSVersion() {
 }
 
 function loadPackageInfo() {
-	var urlSelfParts = window.location.href.split('description.html?id=');
-	var form_url = urlSelfParts[0]+"packageInfo/"+urlSelfParts[1];
+	var getUrl = window.location;
+    var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+    var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname + window.location.search
+	//var form_url = urlSelfParts[0]+"packageInfo/"+urlSelfParts[1];
+	console.log(newURL);
+	console.log("Testing the console");
+	var decodeResp = "com.esquilli.timetoggle"
+	$("#description").html(newURL);
+
+	/**
 	$.ajax({
 		url: form_url,
 		type: "GET",
@@ -31,20 +39,21 @@ function loadPackageInfo() {
 				$("#compatitle_").show();
 			}
 			if(decoder.description) {
-				$("#desc_long").html(decoder.description);
-				$("#desc_long_").show();
+				$("#description").html(decoder.description);
+				$("#description").show();
 			}
 			if(decoder.screenshot) {
-				$("#compatitle").html(decoder.screenshot);
-				$("#compatitle_").show();
+				$("#screenshot").html(decoder.screenshot);
+				$("#screenshot").show();
 			}
 			if(decoder.whatsnew) {
-				$("#changelog").html(decoder.whatsnew);
-				$("#changelog_").show();
+				$("#whatsnew").html(decoder.whatsnew);
+				$("#whatsnew").show();
 			}
         },
 		error: function (err) {
 			$("#errorInfo").html("Description unavailable for "+urlSelfParts[1]);
 		}
 	});
+	**/
 }
