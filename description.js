@@ -14,7 +14,7 @@ function loadPackageInfo() {
 	console.log(newURL);
 	console.log("Testing the console");
 	var decodeResp = "com.esquilli.timetoggle"
-	$("#description").html(newURL);
+	//$("#description").html(newURL);
 
 	/**
 	$.ajax({
