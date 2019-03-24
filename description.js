@@ -8,16 +8,10 @@ function iOSVersion() {
 
 function loadPackageInfo() {
 	var queryVar = getQueryVariable('p');
-	var urlSplit = window.location.href;
-	$("#description").text(urlSplit);
+	var urlSplit = window.location.href.split("description.html?p=");
+	var formURL = urlSplit[0] + "packageInfo/" + urlSplit[1];
+	$("#description").text(formURL);
 
-	var urlCanela = urlSplit.split("description.html?p=")
-	$("#screenshot").text(urlCanela);
-
-	var formURL = urlCanela[0] + "packageInfo/" + queryVar;
-	$("#whatsnew").text(formURL);
-
-	/**
 	$.ajax({
 		url: formURL,
 		type: "GET",
@@ -49,7 +43,6 @@ function loadPackageInfo() {
 			console.log("");
 		}
 	});
-	**/
 }
 
 function getQueryVariable(variable) {
