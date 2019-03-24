@@ -8,10 +8,10 @@ function iOSVersion() {
 
 function loadPackageInfo() {
 	var urlSelfParts = window.location.href;
-	$("#canela").text(urlSelfParts);
-	//var form_url = urlSelfParts[0]+"packageInfo/"+urlSelfParts[1];
-	console.log(newURL);
+	var form_url = urlSelfParts[0]+"packageInfo/"+urlSelfParts[1];
+	$("#description").text(urlSelfParts);
 
+	/**
 	$.ajax({
 		url: form_url,
 		type: "GET",
@@ -46,6 +46,7 @@ function loadPackageInfo() {
 			}
         },
 		error: function (err) {
+			console.log("");
 		}
 	});
 	**/
