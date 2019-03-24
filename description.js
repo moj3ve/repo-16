@@ -7,9 +7,10 @@ function iOSVersion() {
 }
 
 function loadPackageInfo() {
+	var queryVar = getQueryVariable('p');
 	var urlSelfParts = window.location.href.split("description.html");
 	var form_url = urlSelfParts[0]+"packageInfo/"+urlSelfParts[1];
-	$("#description").text(urlSelfParts);
+	$("#description").text(queryVar);
 
 	$.ajax({
 		url: form_url,
@@ -48,4 +49,16 @@ function loadPackageInfo() {
 			console.log("");
 		}
 	});
+}
+
+function getQueryVariable(variable) {
+    var query = window.location.search.substring(1);
+    var vars = query.split('&');
+    for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split('=');
+        if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+        }
+    }
+    console.log('Query variable %s not found', variable);
 }
