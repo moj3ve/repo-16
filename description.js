@@ -8,17 +8,16 @@ function iOSVersion() {
 
 function loadPackageInfo() {
 	var queryVar = getQueryVariable('p');
-	var urlSelfParts = window.location.href.split("description.html?p");
-	var form_url = urlSelfParts[0] + "packageInfo/"+ queryVar;
-	$("#description").text(form_url);
+	var urlSplit = window.location.href.split("description.html?p");
+	var formURL = urlSelfParts[0] + "packageInfo/"+ queryVar;
+	$("#description").text(formURL);
 
 	$.ajax({
-		url: form_url,
+		url: formURL,
 		type: "GET",
 		cache: false,
-		crossDomain: true,
-		success: function (sender) {
-			var decoder = eval('('+sender+')');
+		success: function (returnFields) {
+			var decoder = eval('('+returnFields+')');
 			if(decoder.name) {
 				document.title = decoder.name;
 				$("#name").text(decoder.name);
@@ -26,23 +25,18 @@ function loadPackageInfo() {
 			}
 			if(decoder.version) {
 				$("#version").text(decoder.version);
-				$("#version").show();
 			}
 			if(decoder.compatible) {
 				$("#compatitle").text(decoder.compatible);
-				$("#compatitle_").show();
 			}
 			if(decoder.description) {
 				$("#description").text(decoder.description);
-				$("#description").show();
 			}
 			if(decoder.screenshot) {
 				$("#screenshot").text(decoder.screenshot);
-				$("#screenshot").show();
 			}
 			if(decoder.whatsnew) {
 				$("#whatsnew").text(decoder.whatsnew);
-				$("#whatsnew").show();
 			}
         },
 		error: function (err) {
