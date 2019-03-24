@@ -15,13 +15,13 @@ function loadPackageInfo() {
 	$.ajax({
 		url: formURL,
 		type: "GET",
+		dataType: "text json",
 		cache: false,
-		success: function (returnFields) {
-			var decoder = eval('('+returnFields+')');
+		success: function (decoder) {
+			//var decoder = eval('('+returnFields+')');
 			if(decoder.name) {
 				document.title = decoder.name;
 				$("#name").text(decoder.name);
-				$("#name").show();
 			}
 			if(decoder.version) {
 				$("#version").text(decoder.version);
