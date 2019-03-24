@@ -7,11 +7,10 @@ function iOSVersion() {
 }
 
 function loadPackageInfo() {
-	var urlSelfParts = window.location.href.split('description.html?id=');
+	var urlSelfParts = window.location.href;
+	$("#testing").html(urlSelfParts);
 	var form_url = urlSelfParts[0]+"packageInfo/"+urlSelfParts[1];
 	console.log(newURL);
-	console.log("Testing the console");
-	var decodeResp = "com.esquilli.timetoggle"
 
 	$.ajax({
 		url: form_url,
