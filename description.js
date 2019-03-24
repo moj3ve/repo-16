@@ -12,13 +12,14 @@ function loadPackageInfo() {
 	var formURL = urlSelfParts[0] + "packageInfo/"+ queryVar;
 	$("#description").text(formURL);
 
+	/**
 	$.ajax({
 		url: formURL,
 		type: "GET",
-		dataType: "text json",
 		cache: false,
-		success: function (decoder) {
-			//var decoder = eval('('+returnFields+')');
+		crossDomain: true,
+		success: function (returnFields) {
+			var decoder = eval('('+returnFields+')');
 			if(decoder.name) {
 				document.title = decoder.name;
 				$("#name").text(decoder.name);
@@ -43,6 +44,7 @@ function loadPackageInfo() {
 			console.log("");
 		}
 	});
+	**/
 }
 
 function getQueryVariable(variable) {
