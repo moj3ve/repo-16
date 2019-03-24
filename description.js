@@ -8,9 +8,10 @@ function iOSVersion() {
 
 function loadPackageInfo() {
 	var queryVar = getQueryVariable('p');
-	var urlSplit = window.location.href;
-	//var formURL = urlSelfParts[0] + "packageInfo/"+ queryVar;
+	var urlSplit = window.location.href.split("description.html?p=");
+	var formURL = urlSelfParts[0] + "packageInfo/" + queryVar;
 	$("#description").text(urlSplit);
+	$("#screenshot").text(formURL);
 
 	/**
 	$.ajax({
