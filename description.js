@@ -10,32 +10,33 @@ function loadPackageInfo() {
 	var queryVar = getQueryVariable('p');
 	var urlSplit = window.location.href.split('description.html?id=');
 	var formURL = urlSplit[0] + "packageInfo/" + urlSplit[1];
+	$("#description").text(formURL);
 
 	$.ajax({
 		url: formURL,
 		type: "GET",
 		cache: false,
 		crossDomain: true,
-		success: function (returnFields) {
-			var decodeResp  = eval('('+returnFields+')');
-			if(decodeResp .name) {
-				document.title = decodeResp .name;
-				$("#name").text(decodeResp .name);
+		success: function (returnhtml) {
+			var decodeResp = eval('('+returnhtml+')');
+			if(decodeResp.name) {
+				document.title = decodeResp.name;
+				$("#name").text(decodeResp.name);
 			}
-			if(decodeResp .version) {
-				$("#version").text(decodeResp .version);
+			if(decodeResp.version) {
+				$("#version").text(decodeResp.version);
 			}
-			if(decodeResp .compatible) {
-				$("#compatitle").text(decodeResp .compatible);
+			if(decodeResp.compatible) {
+				$("#compatitle").text(decodeResp.compatible);
 			}
-			if(decodeResp .description) {
-				$("#description").text(decodeResp .description);
+			if(decodeResp.description) {
+				$("#description").text(decodeResp.description);
 			}
-			if(decodeResp .screenshot) {
-				$("#screenshot").text(decodeResp .screenshot);
+			if(decodeResp.screenshot) {
+				$("#screenshot").text(decodeResp.screenshot);
 			}
-			if(decodeResp .whatsnew) {
-				$("#whatsnew").text(decodeResp .whatsnew);
+			if(decodeResp.whatsnew) {
+				$("#whatsnew").text(decodeResp.whatsnew);
 			}
         },
 		error: function (err) {
