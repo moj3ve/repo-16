@@ -7,11 +7,10 @@ function iOSVersion() {
 }
 
 function loadPackageInfo() {
-	var urlSelfParts = window.location.href;
+	var urlSelfParts = window.location.href.split("description.html");
 	var form_url = urlSelfParts[0]+"packageInfo/"+urlSelfParts[1];
 	$("#description").text(urlSelfParts);
 
-	/**
 	$.ajax({
 		url: form_url,
 		type: "GET",
@@ -49,5 +48,4 @@ function loadPackageInfo() {
 			console.log("");
 		}
 	});
-	**/
 }
