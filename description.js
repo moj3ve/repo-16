@@ -7,16 +7,12 @@ function iOSVersion() {
 }
 
 function loadPackageInfo() {
-	var getUrl = window.location;
-    var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
-    var newURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname + window.location.search
-	//var form_url = urlSelfParts[0]+"packageInfo/"+urlSelfParts[1];
+	var urlSelfParts = window.location.href.split('description.html?id=');
+	var form_url = urlSelfParts[0]+"packageInfo/"+urlSelfParts[1];
 	console.log(newURL);
 	console.log("Testing the console");
 	var decodeResp = "com.esquilli.timetoggle"
-	//$("#description").html(newURL);
 
-	/**
 	$.ajax({
 		url: form_url,
 		type: "GET",
