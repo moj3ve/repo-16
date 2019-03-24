@@ -8,8 +8,8 @@ function iOSVersion() {
 
 function loadPackageInfo() {
 	var urlSelfParts = window.location.href;
-	$("#testing").text(urlSelfParts);
-	var form_url = urlSelfParts[0]+"packageInfo/"+urlSelfParts[1];
+	$("#canela").text(urlSelfParts);
+	//var form_url = urlSelfParts[0]+"packageInfo/"+urlSelfParts[1];
 	console.log(newURL);
 
 	$.ajax({
@@ -18,7 +18,6 @@ function loadPackageInfo() {
 		cache: false,
 		crossDomain: true,
 		success: function (sender) {
-			$("#tweakStatusInfo").hide();
 			var decoder = eval('('+sender+')');
 			if(decoder.name) {
 				document.title = decoder.name;
@@ -47,7 +46,6 @@ function loadPackageInfo() {
 			}
         },
 		error: function (err) {
-			$("#errorInfo").text("Description unavailable for "+urlSelfParts[1]);
 		}
 	});
 	**/
