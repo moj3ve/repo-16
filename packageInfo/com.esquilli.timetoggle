@@ -1,8 +1,8 @@
 {
 	"name": "TimeToggle",
 	"version": "1.0.0",
-	"compatitle": "Compatible with iOS 11 and 12",
+	"compatible": "Compatible with iOS 11 and 12",
 	"description": "Tap the status bar to switch between time and date.",
-	"screenshot": "<img src="https://imgur.com/NHZCbq0" width="25%" height="25%" object-fit="contain" align="middle">",
-	"whatsnew": "Initial release.",
+	"screenshot": "<img src='https://imgur.com/NHZCbq0' width='25%' height='25%'' object-fit='contain' align='middle'>",
+	"whatsnew": "Initial release."
 }

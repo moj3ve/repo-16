@@ -7,18 +7,17 @@ function iOSVersion() {
 }
 
 function loadPackageInfo() {
-	var queryVar = getQueryVariable('p');
 	var urlSplit = window.location.href.split('description.html?id=');
 	var formURL = urlSplit[0] + "packageInfo/" + urlSplit[1];
-	$("#description").text(formURL);
 
 	$.ajax({
-		url: formURL,
+		url: "https://esquillidev.github.io/packageInfo/com.esquilli.timetoggle",
 		type: "GET",
 		cache: false,
 		crossDomain: true,
 		success: function (returnhtml) {
-			var decodeResp = eval('('+returnhtml+')');
+			console.log(returnhtml);
+			var decodeResp = JSON.parse(returnhtml);
 			if(decodeResp.name) {
 				document.title = decodeResp.name;
 				$("#name").text(decodeResp.name);
@@ -40,19 +39,7 @@ function loadPackageInfo() {
 			}
         },
 		error: function (err) {
-			console.log("");
+			alert(err);
 		}
 	});
-}
-
-function getQueryVariable(variable) {
-    var query = window.location.search.substring(1);
-    var vars = query.split('&');
-    for (var i = 0; i < vars.length; i++) {
-        var pair = vars[i].split('=');
-        if (decodeURIComponent(pair[0]) == variable) {
-            return decodeURIComponent(pair[1]);
-        }
-    }
-    console.log('Query variable %s not found', variable);
 }
