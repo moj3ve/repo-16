@@ -3,6 +3,6 @@
 	"version": "1.0.0",
 	"compatible": "Compatible with iOS 11 and 12 version (non IPX devices)",
 	"description": "Tap the status bar to switch between time and date. The tweak let you customize the format for each one, including the locale.",
-	"screenshot": "<img src='https://i.imgur.com/wB3g4LX.png' width='25%' height='25%' object-fit='contain' align='middle'>",
+	"screenshot": "<img src='https://i.imgur.com/LC4mXUf.png' width='25%' height='25%' object-fit='contain' align='middle'>",
 	"whatsnew": "Initial release."
 }
