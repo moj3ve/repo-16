@@ -32,7 +32,7 @@ function loadPackageInfo() {
 				$("#description").text(decodeResp.description);
 			}
 			if(decodeResp.screenshot) {
-				$("#screenshot").text(decodeResp.screenshot);
+				$("#screenshot").html(decodeResp.screenshot);
 			}
 			if(decodeResp.whatsnew) {
 				$("#whatsnew").text(decodeResp.whatsnew);
