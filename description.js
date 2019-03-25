@@ -11,7 +11,7 @@ function loadPackageInfo() {
 	var formURL = urlSplit[0] + "packageInfo/" + urlSplit[1];
 
 	$.ajax({
-		url: "https://esquillidev.github.io/packageInfo/com.esquilli.timetoggle",
+		url: formURL,
 		type: "GET",
 		cache: false,
 		crossDomain: true,
