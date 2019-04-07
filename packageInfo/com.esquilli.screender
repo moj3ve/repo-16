@@ -1,0 +1,8 @@
+{
+	"name": "Screender",
+	"version": "1.0.0",
+	"compatible": "Compatible with iOS 11 and 12 versions",
+	"description": "<p>Delete screenshots via Control Center with a Tinder-like interface.</p><ul><li>Swipe left to skip screenshot.</li><li>Swipe right to add screenshot to a queue.</li><li>Press reset button to reload screenshot queue.</li><li>Press thrash button to delete screenshots added to the queue</li></ul><p><b>NOTE:</b> If you delete screenshots and then press the reset button it will reload the last 5 image from the Screenshot album.</p>",
+	"screenshot": "<img src='https://i.imgur.com/2J2AauG.png' width='50%' height='50%' object-fit='contain' align='middle'><img src='https://i.imgur.com/fDotrkO.png' width='50%' height='50%' object-fit='contain' align='middle'>",
+	"whatsnew": "Initial release."
+}
