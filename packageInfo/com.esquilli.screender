@@ -1,8 +1,8 @@
 {
 	"name": "Screender",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"compatible": "Compatible with iOS 11 and 12 versions",
 	"description": "<p>Delete screenshots via Control Center with a Tinder-like interface.</p><ul><p><span>&#8226;</span> Swipe left to skip screenshot.<br><span>&#8226;</span> Swipe right to add screenshot to a queue.<br><span>&#8226;</span> Press reset button to reload screenshot queue.<br><span>&#8226;</span> Press thrash button to delete screenshots added to the queue<br><span>&#8226;</span> Hold Screender CC toggle to select other options.</p></ul><p><b>NOTE:</b> Only the last 5 screenshots will be loaded into the draggable views to ensure good memory performance.</p>",
 	"screenshot": "<img src='https://i.imgur.com/2J2AauG.png' width='50%' height='50%' object-fit='contain' align='middle'><br><br><img src='https://i.imgur.com/fDotrkO.png' width='50%' height='50%' object-fit='contain' align='middle'>",
-	"whatsnew": "Initial release."
+	"whatsnew": "Fixed draggable views stretching."
 }
