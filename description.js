@@ -26,7 +26,7 @@ function loadPackageInfo() {
 				$("#version").html(decodeResp.version);
 			}
 			if(decodeResp.compatible) {
-				$("#compatitle").html(decodeResp.compatible);
+				$("#compatible").html(decodeResp.compatible);
 			}
 			if(decodeResp.description) {
 				$("#description").html(decodeResp.description);
