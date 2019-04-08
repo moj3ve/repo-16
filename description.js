@@ -23,19 +23,19 @@ function loadPackageInfo() {
 				$("#name").text(decodeResp.name);
 			}
 			if(decodeResp.version) {
-				$("#version").text(decodeResp.version);
+				$("#version").html(decodeResp.version);
 			}
 			if(decodeResp.compatible) {
-				$("#compatitle").text(decodeResp.compatible);
+				$("#compatitle").html(decodeResp.compatible);
 			}
 			if(decodeResp.description) {
-				$("#description").text(decodeResp.description);
+				$("#description").html(decodeResp.description);
 			}
 			if(decodeResp.screenshot) {
 				$("#screenshot").html(decodeResp.screenshot);
 			}
 			if(decodeResp.whatsnew) {
-				$("#whatsnew").text(decodeResp.whatsnew);
+				$("#whatsnew").html(decodeResp.whatsnew);
 			}
         },
 		error: function (err) {
