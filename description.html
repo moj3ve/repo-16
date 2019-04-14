@@ -9,17 +9,21 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="description.js"></script>
 	<style>
-		.wrapper{
-		    width: 500px; 
-		    overflow-x:scroll;     
-		    white-space: nowrap;
+		* {
+  			box-sizing: border-box;
 		}
 
-		.slide{
-		    background: #ccc;
-		    height: 200px;
-		    display: inline-block;
-		    width: 100px;
+		.column {
+		  float: left;
+		  width: 33.33%;
+		  padding: 5px;
+		}
+
+		/* Clearfix (clear floats) */
+		.row::after {
+		  content: "";
+		  clear: both;
+		  display: table;
 		}
 	</style>
 </head>
