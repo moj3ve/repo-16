@@ -23,7 +23,7 @@ function loadPackageInfo() {
 				$("#name").text(decodeResp.name);
 			}
 			if(decodeResp.version) {
-				$("#version").text(decodeResp.version);
+				$("#version").html(decodeResp.version);
 			}
 			if(decodeResp.description) {
 				$("#description").html(decodeResp.description);

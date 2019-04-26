@@ -1,8 +1,7 @@
 {
 	"name": "FakeDisabled",
 	"version": "1.0.0",
-	"description": "<p>Customizable fake disabled screen that completely mimics the actual disabled screen.</p><ul><li>Lock and fake feature</li>
-    <li>Assign Activator actions</li><li>Custom time</li><li>Custom formatting</li><li>Functional emergency button</li><li>No need to respring to apply settings</li></ul><p><b>NOTE:</b> This tweak was tested on iOS 11 and 12, but it may work in lower ones.</p>",
+	"description": "<p>Customizable fake disabled screen that completely mimics the actual disabled screen.</p><ul><li>Lock and fake feature</li><li>Assign Activator actions</li><li>Custom time</li><li>Custom formatting</li><li>Functional emergency button</li><li>No need to respring to apply settings</li></ul><p><b>NOTE:</b> This tweak was tested on iOS 11 and 12, but it may work in lower ones.</p>",
 	"screenshot": "<img src='https://media.giphy.com/media/SVMxoTwKqOi8Ue4TQy/giphy.gif' alt='Screenshot > FakeDisabled' style='max-width: 100%;'>",
 	"whatsnew": "Initial release."
 }
