@@ -1,66 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Description</title>
-	<link rel="stylesheet" href="ios7.min.css">
-	<meta name='viewport' content='width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;'/>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<script src="ios7.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="description.js"></script>
-	<style>
-	</style>
-</head>
+	<head>
+		<title>Description</title>
+		<link rel="stylesheet" href="esquilli.css">
+		<script src="description.js"></script>
+		<style>
+		</style>
+	</head>
 
-<body onload="loadPackageInfo()">
-	<header role="banner">
-		<h1 id="name"></h1>
-	</header>
-	<main id="content" role="main">
-		<div id="packageInformation">
-			<span class="content">
-				<ul align="center">
-					<p id="compatible"></p>
-				</ul>
-			</span>
-			<span class="content">
-				<h5 role="header" style="font-size: 100%" align="left">DESCRIPTION</h5>
-				<ul>
-					<li>
-						<p id="description"></p>
-					</li>
-				</ul>		
-			</span>
-			<span class="content">
-				<h5 role="header" style="font-size: 100%" align="left">SCREENSHOTS</h5>
-				<ul align="center">
-					<li id="screenshot"></li>
-				</ul>
-			</span>
-			<span class="content">
-				<h5 role="header" style="font-size: 100%" align="left">WHAT'S NEW? <span style="font-size: 75%;color:white;background:black;padding: 0 5px;border-radius: 1.25em !important;" id="version"></span></h5>
-				<ul>
-					<li id="whatsnew"></li>
-				</ul>
-			</span>
-			<span class="package-info">
-				<h5 role="header" style="font-size: 100%" align="left">INFORMATION</h5>
-				<ul>
-					<li class="has-icon">
-						<a href="https://twitter.com/EsquilliDev" target="_blank" role="button">
-							<img class="icon" src="https://img.icons8.com/ios/64/000000/twitter-filled.png"/>
-							<label>Follow me on Twitter</label>
-						</a>
-					</li>
-					<li class="has-icon">
-						<a href="https://paypal.me/EsquilliDev" target="_blank" role="button">
-							<img class="icon" src="https://img.icons8.com/ios/52/000000/paypal-filled.png"/>
-							<label>Support me on Paypal</label>
-						</a>
-					</li>
-				</ul>
-			</span>
+	<body onload="loadPackageInfo()">
+		<img class="logo" src="https://i.imgur.com/UNi0Z4p.png" alt="Esquilli" />
+		<div class="row content">
+		  <div>
+		    <h3>Description</h3>
+		    <hr>
+		    <div id="description">
+		    </div>
+		  </div>
+		  <div class="screenshots">
+		    <h3>Screenshots</h3>
+		    <hr>
+		    <div class="screenshot" id="screenshot"></div>
+		  </div>
+		  <div>
+		    <h3>What's new?<span style="font-size: 75%;color:black;background:white;margin-left:10px;padding: 0 8px;border-radius: 1.25em !important;" id="version"></span></h3>
+		    <hr>
+		    <div id="whatsnew"></div>
+		  </div>
+		  <div style="display:flex">
+		    <a class="button" href="https://twitter.com/EsquilliDev" rel="noopener" target="_blank" role="button"><span>Follow me on Twitter</span></a>
+		    <a class="button" href="https://discord.gg/uJSNG3X" rel="noopener" target="_blank" role="button"><span>Join my Discord server!</span></a>
+		    <a class="button" href="https://paypal.me/EsquilliDev" rel="noopener" target="_blank" role="button"><span>Buy me a pizza?</span></a>
+		  </div>
 		</div>
-	</main>
-</body>
+	</body>
 </html>
