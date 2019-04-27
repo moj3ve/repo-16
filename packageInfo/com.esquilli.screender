@@ -2,6 +2,6 @@
 	"name": "Screender",
 	"version": "1.0.2",
 	"description": "<p>Delete screenshots via Control Center with a Tinder-like interface.</p><ul><li>Swipe left to skip screenshot</li><li>Swipe right to add screenshot to a queue</li><li>Press reset button to reset everything and start all over again</li><li>Press load button to load the next 5 screenshots starting from the current one</li><li>Press thrash button to delete screenshots added to the queue</li><li>Hold Screender CC toggle to select other options</li></ul><p><b>NOTE:</b> Only the last 5 screenshots will be loaded into the draggable views to ensure good memory performance.</p>",
-	"screenshot": "<div class="screenshot"><img src='https://i.imgur.com/N10ZAsr.jpg' alt='Screenshot > Screender' style='max-width: 100%;'/></div><div class="screenshot"><img src='https://i.imgur.com/LawDWiq.jpg' alt='Screenshot > Screender' style='max-width: 100%;'/></div>",
+	"screenshot": "<div class='screenshot'><img src='https://i.imgur.com/N10ZAsr.jpg' alt='Screenshot > Screender' style='max-width: 100%;'/></div><div class='screenshot'><img src='https://i.imgur.com/LawDWiq.jpg' alt='Screenshot > Screender' style='max-width: 100%;'/></div>",
 	"whatsnew": "<p>Added a new button, thus changing the way Screender works.</p>"
 }
