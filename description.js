@@ -35,13 +35,13 @@ function loadPackageInfo() {
 				$("#whatsnew").html(decodeResp.whatsnew);
 			}
 			if(decodeResp.licence) {
-				$("#licence").html(decodeResp.whatsnew);
+				$("#licence").html(decodeResp.licence);
 			}
 			if(decodeResp.updated) {
-				$("#updated").html(decodeResp.whatsnew);
+				$("#updated").html(decodeResp.updated);
 			}
 			if(decodeResp.supported) {
-				$("#supported").html(decodeResp.whatsnew);
+				$("#supported").html(decodeResp.supported);
 			}
         },
 		error: function (err) {
