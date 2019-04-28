@@ -116,6 +116,23 @@ body {
   opacity: 1.0;
 }
 
+.screenshots {
+  display: block;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+
+.screenshots .screenshot {
+  border-radius: 13px;
+  display: inline-block;
+  padding: 5px;
+  width: 50.0%;
+}
+
+.screenshots img {
+  border-radius: 4px;
+}
+
 .button {
   display: inline-block;
   border-radius: 4px;
