@@ -1,0 +1,10 @@
+{
+	"name": "Lisa",
+	"version": "1.0.0",
+	"description": "<p>Customize your Lock Screen notifications experience</p><ul><li>Choose what elements you want to see in the dismissible screen</li><li>Customize the tweak's behavior</li><li>Enable/disable animations</li></ul><p>Works perfectly with tweaks such as Notifica, Dots, ShortLook, etc.</p>",
+	"screenshot": "<div class='screenshot'><img src='https://imgur.com/pHW4Q2B' alt='Screenshot > Lisa' style='max-width: 100%;'/></div><div class='screenshot'>",
+	"whatsnew": "<p>Initial release.</p>",
+	"licence": "<p>FREE</p>",
+	"updated": "<p>April 29, 2019</p>",
+	"supported": "<p>iOS 11.0 - 12.1.2</p>"
+}

@@ -34,6 +34,15 @@ function loadPackageInfo() {
 			if(decodeResp.whatsnew) {
 				$("#whatsnew").html(decodeResp.whatsnew);
 			}
+			if(decodeResp.licence) {
+				$("#licence").html(decodeResp.whatsnew);
+			}
+			if(decodeResp.updated) {
+				$("#updated").html(decodeResp.whatsnew);
+			}
+			if(decodeResp.supported) {
+				$("#supported").html(decodeResp.whatsnew);
+			}
         },
 		error: function (err) {
 			alert(err);
