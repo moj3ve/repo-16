@@ -30,17 +30,14 @@ body {
 }
 
 .list-wrapper {
-  background: white;
+  background: #ffffff;
   margin-top: 150px;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  overflow: auto;
 }
-
-
 
 .cards-list {
   position: relative;
