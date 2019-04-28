@@ -1,14 +1,5 @@
-*.lock {
-  overflow: hidden;
-}
-
 * {
   box-sizing: border-box;
-}
-
-html, body {
-  margin: 0;
-  padding:0;
 }
 
 body {
@@ -39,10 +30,11 @@ body {
 }
 
 .list-wrapper {
+  margin: 0 155px;
   margin-top: 150px;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 9px;
   right: 0;
   bottom: 0;
 }
