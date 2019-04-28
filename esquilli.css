@@ -2,7 +2,19 @@
   overflow: hidden;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding:0;
+}
+
 body {
+  margin: 10px 0;
+  background: #ffffff;
+  color: black;
   font-family: "SF Pro Display", "SF Pro", "Helvetica Neue", "Roboto", "Segoe UI", Helvetica, Arial, Verdana, sans-serif;
 }
 
