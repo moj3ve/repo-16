@@ -30,11 +30,11 @@ body {
 }
 
 .list-wrapper {
-  margin: 0 155px;
+  background: #ffffff;
   margin-top: 150px;
   position: absolute;
   top: 0;
-  left: 9px;
+  left: 0;
   right: 0;
   bottom: 0;
 }
