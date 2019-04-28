@@ -1,64 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Description</title>
-		<link rel="stylesheet" href="esquilli.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="description.js"></script>
-	</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Description</title>
+    <link rel="stylesheet" href="esquilli.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="description.js"></script>
+  </head>
 
-	<body onload="loadPackageInfo()">
-		<div class="container">
-			<img class="toplogo" src="https://i.imgur.com/UNi0Z4p.png" alt="Esquilli" />
-			<div class="row content">
-			  <div>
-			    <h3>Description</h3>
-			    <hr>
-			    <div id="description">
-			    </div>
-			  </div>
-			  <div>
-			    <h3>Screenshots</h3>
-			    <hr>
-			    <div class="screenshots" id="screenshot"></div>
-			  </div>
-			  <div>
-			    <h3>What's new?<span style="font-size: 75%;color:black;background:white;margin-left:10px;padding: 0 8px;border-radius: 1.25em !important;" id="version"></span></h3>
-			    <hr>
-			    <div id="whatsnew"><p>Initial release.</p></div>
-			  </div>
-   			  <div>
-			    <h3>Metadata</h3>
-			    <hr>
-	         	<table border="0">
-		        	<tr>
-	            		<td align="let">Licence: </td>
-		            	<td id="licence"></td>
-		            </tr>
-		            <tr>
-		              	<td align="left">Last updated: </td>
-		              	<td id="updated"></td>
-		            </tr>
-		            <tr>
-		              	<td align="left">iOS Supported: </td>
-		              	<td id="supported"></td>
-		            </tr>
-	          	</table>
-			  </div>
-			  <br>
-			  <br>
-			  <br>
-			  <br>
-			  <div>
-			    <a class="button" href="https://twitter.com/EsquilliDev" rel="noopener" target="_blank" role="button"><span>Follow me on Twitter</span></a>
-			    <a class="button" href="https://discord.gg/uJSNG3X" rel="noopener" target="_blank" role="button"><span>Join my Discord server!</span></a>
-			    <a class="button" href="https://paypal.me/EsquilliDev" rel="noopener" target="_blank" role="button"><span>Buy me a pizza?</span></a>
-			  </div>
-			  <br>
-			  <br>
-			</div>
-		</div>
-	</body>
+  <body onload="loadPackageInfo()">
+    <div class="container">
+      <img class="toplogo" src="https://i.imgur.com/XfRG7WQ.jpg" alt="Esquilli" />
+      <div class="row content">
+        <div class="list-wrapper">
+          <div class="cards-list">
+            <h3 class="title">Description</h3>
+            <div class="card">
+              <div class="card-content">
+                <div class="container-fluid content-holder">
+                  <div class="inner-content">
+                    <div class="info-holder">
+                      <div class="description" id="description">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 class="title">Screenshots</h3>
+            <div class="card">
+              <div class="card-content">
+                <div class="container-fluid content-holder">
+                  <div class="inner-content">
+                    <div class="info-holder">
+                      <div class="description" id="screenshot">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 class="title">What's new?</h3>
+            <div class="card">
+              <div class="card-content">
+                <div class="container-fluid content-holder">
+                  <div class="inner-content">
+                    <div class="info-holder">
+                      <div class="description" id="whatsnew">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 class="title">Metadata</h3>
+            <div class="card">
+              <div class="card-content">
+                <div class="container-fluid content-holder">
+                  <div class="inner-content">
+                    <div class="info-holder">
+                      <div class="description">
+                        <table border="0" width="332">
+                            <tr>
+                              <td align="let">Licence: </td>
+                              <td id="licence" align="right">FREE</td>
+                            </tr>
+                            <tr>
+                                <td align="left">Last updated: </td>
+                                <td id="updated" align="right">April 29, 2019</td>
+                            </tr>
+                            <tr>
+                                <td align="left">iOS Supported: </td>
+                                <td id="supported" align="right">iOS 11.0 - 12.1.2</td>
+                            </tr>
+                      </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 class="title">Support</h3>
+            <div class="card">
+              <div class="card-content">
+                <div class="container-fluid content-holder">
+                  <div class="inner-content">
+                    <div class="info-holder">
+                      <div class="description">
+                          <a class="button" href="https://twitter.com/EsquilliDev" rel="noopener" target="_blank" role="button"><span>Follow me on Twitter</span></a>
+                          <a class="button" href="https://discord.gg/uJSNG3X" rel="noopener" target="_blank" role="button"><span>Join my Discord server!</span></a>
+                          <a class="button" href="https://paypal.me/EsquilliDev" rel="noopener" target="_blank" role="button"><span>Buy me a pizza?</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

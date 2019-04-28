@@ -1,21 +1,9 @@
-* {
-  box-sizing: border-box;
-}
-
-html, body {
-  margin: 0;
-  padding:0;
+*.lock {
+  overflow: hidden;
 }
 
 body {
-  margin: 10px 0;
-  background: #000;
-  color: #fff;
   font-family: "SF Pro Display", "SF Pro", "Helvetica Neue", "Roboto", "Segoe UI", Helvetica, Arial, Verdana, sans-serif;
-}
-
-a {
- text-decoration: none;
 }
 
 .container {
@@ -24,43 +12,116 @@ a {
   margin: 0 auto;
 }
 
+.toplogo {
+  width: 90px;
+  display: block;
+  margin: 30px auto;
+}
+
 .row {
-	padding: 5px 15px;
+  padding: 5px 15px;
 }
 
 .content {
   padding-top: 0;
 }
 
-.screenshots {
-  display: block;
-  white-space: nowrap;
-  overflow-x: scroll;
+.list-wrapper {
+  margin-top: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
 }
 
-.screenshots .screenshot {
-  border-radius: 13px;
-  display: inline-block;
-  padding: 5px;
-  width: 33.3%;
+.cards-list {
+  position: relative;
+  padding: 15px 15px 50px;
+  padding-bottom: calc(20px + env(safe-area-inset-bottom)); /* For iPhone X */
+  max-width: 400px;
+  margin: auto;
 }
 
-.screenshots img {
-  border-radius: 4px;
+.card {
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  min-height: 100px;
+  overflow: hidden;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.2s ease, box-shadow 0.2s ease;
+  opacity: 1;
+  margin-bottom: 40px;
 }
 
-.toplogo {
-  width: 90px;
-  display: block;
-  margin: 25px auto;
+.card.hover,
+.card:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0);
+  overflow: hidden;
+  transition: border-radius 0.15s ease;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.content-holder {
+  max-width: 600px;
+  padding: 0;
+  z-index: 1;
+  height: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  position: relative;
+}
+
+.inner-content {
+  top: 1vh;
+  padding: 20px;
+  position: relative;
+  background-color: #fff;
+}
+
+.info-holder {
+  display: flex;
+  align-items: center;
+}
+
+.date-category {
+  text-transform: uppercase;
+  font-size: 12px;
+  opacity: 0.5;
+  margin-bottom: 0;
+  flex: 1;
+  margin: 0 1.4rem 0 0;
+}
+
+.title {
+  position: relative;
+  align: center;
+  margin: 10px 0 20px 0;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 1.0;
 }
 
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #ec1d29;
+  background-color: #b5b3b3;
   border: none;
-  color: #FFFFFF;
+  color: black;
   text-align: center;
   font-size: 16px;
   padding: 5px;
