@@ -28,7 +28,6 @@ hr.top {
   padding: 1px;
   margin: 10px 423px auto;
   margin-top: 40px;
-  margin-left: 535px;
 }
 
 .topicon {
@@ -132,7 +131,6 @@ hr.top {
 }
 
 .description {
-  word-break: break-all !important;
   font-size: 16px;
   line-height: 1.5;
   opacity: 1.0;
