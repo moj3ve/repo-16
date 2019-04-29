@@ -5,19 +5,12 @@
 body {
   margin: 10px 0;
   background: #ffffff;
-  color: black;
-  font-family: "SF Pro Display", "SF Pro", "Helvetica Neue", "Roboto", "Segoe UI", Helvetica, Arial, Verdana, sans-serif;
+  color: black !important;
+  font-family: "SF Pro Display", "SF Pro", "Helvetica Neue", "Roboto", "Segoe UI", Helvetica, Arial, Verdana, sans-serif !important;
 }
 
 hr.top {
   border: 1.2px solid black;
-}
-
-.container {
-  max-width: 1200px;
-  overflow-x: hidden;
-  margin: 0 164px;
-  margin-top: 40px;
 }
 
 .toplogo {
@@ -27,13 +20,15 @@ hr.top {
 }
 
 .topcontent {
-  width: 300px;
+  width: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: white;
   padding: 1px;
-  margin: 0px 423px auto;
+  margin: 10px 423px auto;
+  margin-top: 40px;
+  margin-left: 525px;
 }
 
 .topicon {
@@ -72,10 +67,10 @@ hr.top {
   background: white;
   position: relative;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 20px !important;
   min-height: 100px;
   overflow: hidden;
-  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.12);
   transition: opacity 0.2s ease, box-shadow 0.2s ease;
   opacity: 1;
   margin-bottom: 40px;
@@ -88,7 +83,7 @@ hr.top {
 
 .card-content {
   position: relative;
-  width: 100%;
+  width: 100% !important;
   height: 100%;
   background: rgba(255, 255, 255, 0);
   overflow: hidden;
@@ -98,6 +93,7 @@ hr.top {
 }
 
 .content-holder {
+  
   max-width: 600px;
   padding: 0;
   z-index: 1;
@@ -136,6 +132,7 @@ hr.top {
 }
 
 .description {
+  word-break: break-all !important;
   font-size: 16px;
   line-height: 1.5;
   opacity: 1.0;
@@ -170,7 +167,7 @@ hr.top {
   width: 100%;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
+  margin: 0 0 5px;
 }
 
 .button span {
