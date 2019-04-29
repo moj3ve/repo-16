@@ -43,6 +43,12 @@ function loadPackageInfo() {
 			if(decodeResp.supported) {
 				$("#supported").html(decodeResp.supported);
 			}
+			if(decodeResp.topicon) {
+				$("#topicon").attr('src', decodeResp.topicon);
+			}
+			if(decodeResp.title) {
+				$("#title").html(decodeResp.title);
+			}
         },
 		error: function (err) {
 			alert(err);

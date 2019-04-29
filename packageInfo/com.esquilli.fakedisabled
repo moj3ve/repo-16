@@ -6,5 +6,7 @@
 	"whatsnew": "Initial release.",
 	"licence": "FREE",
 	"updated": "April 11, 2019",
-	"supported": "iOS 11.0 - 12.1.2"
+	"supported": "iOS 11.0 - 12.1.2",
+	"topicon": "https://i.imgur.com/z51PKju.png",
+	"title": "Fake Disabled"
 }
