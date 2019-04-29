@@ -33,7 +33,7 @@ hr.top {
 .topicon {
   width: 70px;
   display: inline-block;
-  margin: auto;
+  margin: 0 10px auto;
 }
 
 .row {
