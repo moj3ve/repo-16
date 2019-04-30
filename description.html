@@ -17,105 +17,98 @@
 
   <body onload="loadPackageInfo()">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col d-flex flex-row justify-content-center">
-          <div class="topcontent">
-                <img class="topicon" src="" id="topicon" />
-                <h1 class="title" id="title"></h1>
-          </div>
+        <div class="topcontent">
+          <img class="topicon" src="https://i.imgur.com/MaDB5RU.png" id="topicon" />
+          <h1 class="title" id="title">Lisa Tweak</h1>
         </div>
-      </div> 
-      <div class="row">
         <!-- <img class="toplogo" src="https://i.imgur.com/XfRG7WQ.jpg" alt="Esquilli" /> -->
-        <div class="col d-flex flex-row justify-content-center">
-          <div class="row content">
-            <div class="list-wrapper">
-              <div class="cards-list">
-                <h1 class="title">Description</h1>
-                <div class="card">
-                  <div class="card-content">
-                    <div class="container-fluid content-holder">
-                      <div class="inner-content">
-                        <div class="info-holder">
-                          <div class="description" id="description">
-                          </div>
+        <div class="list-wrapper">
+          <div class="cards-list">
+            <h1 class="title">Description</h1>
+            <div class="card">
+              <div class="card-content">
+                <div class="container-fluid content-holder">
+                  <div class="inner-content">
+                    <div class="info-holder">
+                      <div class="description" id="description">
+                        <p>Customize your Lock Screen notifications experience</p><ul><li>Choose what elements you want to see in the dismissible screen</li><li>Customize the tweak's behavior</li><li>Enable/disable animations</li></ul><p>Works perfectly with tweaks such as Notifica, Dots, ShortLook, etc.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h1 class="title">Screenshots</h1>
+            <div class="card">
+              <div class="card-content">
+                <div class="container-fluid content-holder">
+                  <div class="inner-content">
+                    <div class="info-holder">
+                      <div class="description">
+                        <div class='screenshots' id="screenshot">
+                          <video class='embed-responsive-item container' controls><source src='https://i.imgur.com/pHW4Q2B.mp4' type='video/mp4'></video>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <h1 class="title">Screenshots</h1>
-                <div class="card">
-                  <div class="card-content">
-                    <div class="container-fluid content-holder">
-                      <div class="inner-content">
-                        <div class="info-holder">
-                          <div class="description">
-                            <div class='screenshots' id="screenshot">
-                            </div>
-                          </div>
-                        </div>
+              </div>
+            </div>
+            <div>
+              <h1 class="title" style="display: inline-block">What's new?</h1>
+              <span class="badge badge-pill badge-dark" style="position: absolute; margin-top: 27px; margin-left: 10px" id="version"></span>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div class="container-fluid content-holder">
+                  <div class="inner-content">
+                    <div class="info-holder">
+                      <div class="description" id="whatsnew">
                       </div>
                     </div>
                   </div>
                 </div>
-                <div>
-                  <h1 class="title" style="display: inline-block">What's new?</h1>
-                  <span class="badge badge-pill badge-dark" style="position: absolute; margin-top: 27px; margin-left: 10px" id="version"></span>
-                </div>
-                <div class="card">
-                  <div class="card-content">
-                    <div class="container-fluid content-holder">
-                      <div class="inner-content">
-                        <div class="info-holder">
-                          <div class="description" id="whatsnew">
-                          </div>
-                        </div>
+              </div>
+            </div>
+            <h1 class="title">Metadata</h1>
+            <div class="card">
+              <div class="card-content">
+                <div class="container-fluid content-holder">
+                  <div class="inner-content">
+                    <div class="info-holder">
+                      <div class="description table-responsive">
+                        <table class="table table-sm table-borderless">
+                          <tbody>
+                            <tr>
+                              <td align="let">Licence: </td>
+                              <td id="licence" align="right">FREE</td>
+                            </tr>
+                            <tr>
+                              <td align="left">Last updated: </td>
+                              <td id="updated" align="right">April 29, 2019</td>
+                            </tr>
+                            <tr>
+                              <td align="left">iOS Supported: </td>
+                              <td id="supported" align="right">iOS 11.0 - 12.1.2</td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </div>
                   </div>
                 </div>
-                <h1 class="title">Metadata</h1>
-                <div class="card">
-                  <div class="card-content">
-                    <div class="container-fluid content-holder">
-                      <div class="inner-content">
-                        <div class="info-holder">
-                          <div class="description table-responsive">
-                            <table class="table table-sm table-borderless">
-                              <tbody>
-                                <tr>
-                                  <td align="let">Licence: </td>
-                                  <td id="licence" align="right"></td>
-                                </tr>
-                                <tr>
-                                    <td align="left">Last updated: </td>
-                                    <td id="updated" align="right"></td>
-                                </tr>
-                                <tr>
-                                    <td align="left">iOS Supported: </td>
-                                    <td id="supported" align="right"></td>
-                                </tr>
-                              </tbody>
-                          </table>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <h1 class="title">Support</h1>
-                <div class="card">
-                  <div class="card-content">
-                    <div class="container-fluid content-holder">
-                      <div class="inner-content">
-                        <div class="info-holder">
-                          <div class="description col d-flex flex-row justify-content-center">
-                              <a href="https://twitter.com/EsquilliDev" class="fab fa-twitter" style="text-decoration: none;" rel="noopener" target="_blank" role="button"></a>
-                              <a href="https://discord.gg/uJSNG3X" class="fab fa-discord" style="text-decoration: none;" rel="noopener" target="_blank" role="button"></a>
-                              <a href="https://paypal.me/EsquilliDev" class="fab fa-paypal" style="text-decoration: none;" rel="noopener" target="_blank" role="button"></a>
-                          </div>
-                        </div>
+              </div>
+            </div>
+            <h1 class="title">Support</h1>
+            <div class="card">
+              <div class="card-content">
+                <div class="container-fluid content-holder">
+                  <div class="inner-content">
+                    <div class="info-holder">
+                      <div class="description support">
+                        <a href="https://twitter.com/EsquilliDev" class="fab fa-twitter" style="text-decoration: none;" rel="noopener" target="_blank" role="button"></a>
+                        <a href="https://discord.gg/uJSNG3X" class="fab fa-discord" style="text-decoration: none;" rel="noopener" target="_blank" role="button"></a>
+                        <a href="https://paypal.me/EsquilliDev" class="fab fa-paypal" style="text-decoration: none;" rel="noopener" target="_blank" role="button"></a>
                       </div>
                     </div>
                   </div>
@@ -125,6 +118,5 @@
           </div>
         </div>
       </div>
-    </div>
   </body>
 </html>
