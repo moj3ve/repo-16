@@ -124,7 +124,6 @@ hr.top {
 }
 
 .title {
-  font-size: 2.3vw;
   position: relative;
   align: center;
   margin: 10px 0 20px 0;
@@ -132,7 +131,7 @@ hr.top {
 }
 
 .description {
-  font-size: 1vw;
+  font-size: 16px;
   line-height: 1.5;
   opacity: 1.0;
 }
@@ -196,7 +195,7 @@ hr.top {
 
 .fab {
   padding: 0px;
-  font-size: 3vw;
+  font-size: 50px;
   width: 30px;
   text-align: center;
   text-decoration: none;
