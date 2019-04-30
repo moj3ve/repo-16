@@ -32,10 +32,18 @@ hr.top {
 
 @media (max-width: 421px) {
     img.topicon { width: 60px; }
-    h1.toptitle { 
+    h1.title { 
       font-size: 33px;
       margin-top: 5px;
     }
+    p { font-size: 15px; }
+    li { font-size: 15px; }
+    td { font-size: 15px; }
+    div.wrapper { margin-left: -38px !important; }
+    a { margin: 0 0 0 70px !important; }
+}
+
+.wrapper {
 }
 
 .topicon {
@@ -107,7 +115,6 @@ hr.top {
 }
 
 .content-holder {
-  
   max-width: 600px;
   padding: 0;
   z-index: 1;
@@ -146,7 +153,7 @@ hr.top {
 }
 
 .description {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   opacity: 1.0;
 }
