@@ -30,7 +30,7 @@ hr.top {
   margin-top: 40px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 421px) {
     img.topicon { width: 50px; }
     h1.toptitle { 
       font-size: 30px;
