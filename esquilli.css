@@ -20,13 +20,13 @@ hr.top {
 }
 
 .topcontent {
-  width: 350px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   background: white;
   padding: 1px;
-  margin: auto;
+  margin: 10px 423px auto;
   margin-top: 40px;
 }
 
@@ -46,7 +46,7 @@ hr.top {
 
 .list-wrapper {
   background: #ffffff;
-  margin-top: 150px;
+  margin-top: 10px;
   position: absolute;
   top: 0;
   left: 0;
@@ -131,8 +131,7 @@ hr.top {
 }
 
 .description {
-  background: white;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   opacity: 1.0;
 }
@@ -192,15 +191,6 @@ hr.top {
 .button:hover span:after {
   opacity: 1;
   right: 0;
-}
-
-.support {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: white;
-  margin:  0 -1px auto;
 }
 
 .fab {
