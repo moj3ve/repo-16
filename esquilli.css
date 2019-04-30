@@ -20,20 +20,35 @@ hr.top {
 }
 
 .topcontent {
-  width: 100%;
+  width: 350px !important;
   display: flex;
   justify-content: center;
   align-items: center;
   background: white;
   padding: 1px;
-  margin: 10px 423px auto;
+  margin: auto;
   margin-top: 40px;
+}
+
+@media (max-width: 375px) {
+    img.topicon { width: 50px; }
+    h1.toptitle { 
+      font-size: 30px;
+      margin-top: 5px;
+    }
 }
 
 .topicon {
   width: 70px;
   display: inline-block;
   margin: 0 10px auto;
+}
+
+.toptitle {
+  position: relative;
+  align: center;
+  margin: 10px 0 20px 0;
+  font-weight: bold;
 }
 
 .row {
