@@ -9,13 +9,13 @@ body {
   font-family: "SF Pro Display", "SF Pro", "Helvetica Neue", "Roboto", "Segoe UI", Helvetica, Arial, Verdana, sans-serif !important;
 }
 
-@media (max-width: 493px) {
+@media (max-width: 500px) {
     h1.title { 
-      font-size: 47px;
+      font-size: 42px;
     }
     p.description { font-size: 22px; }
     li { font-size: 12px; }
-    a.awrapper { font-size: 25px !important; }
+    a.awrapper { font-size: 25px !important;     }
 }
 
 .bg-navbar {
