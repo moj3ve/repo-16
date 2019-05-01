@@ -1,115 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:site_name" content="Esquilli" />
+    <meta name="twitter:image" content="https://i.imgur.com/z51PKju.png" />
+    <meta property="og:image" content="https://i.imgur.com/z51PKju.png" />
+    <title>Description</title>
+    <link rel="icon" type="image/png" href="https://i.imgur.com/z51PKju.png">
+    <link rel="stylesheet" href="esquilli.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
 
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136762600-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-136762600-1');
-	</script>
-
-
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-	<meta name="author" content="">
-
-	<title>EsquilliDev Homepage</title>
-
-	<!-- Bootstrap core CSS -->
-	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-	<!-- Custom fonts for this template -->
-	<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-
-	<!-- Plugin CSS -->
-	<link rel="stylesheet" href="device-mockups/device-mockups.min.css">
-
-	<!-- Custom styles for this template -->
-	<link href="css/new-age.min.css" rel="stylesheet">
-
-</head>
-
-<body id="page-top">
-
-	<header class="masthead">
-	<div class="container h-100">
-	  <div class="row h-100">
-	    <div class="col-lg-7 my-auto">
-	      <div class="header-content mx-auto">
-	        <h1 class="mb-5">EsquilliDev Repository</h1>
-	        <div class="badges">
-	        	<a class="badge-link" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://esquillidev.github.io/"><img src="img/app-store-badge.svg" alt="" width='50%' height='50%' style="margin:0 80px"></a>
-     	    </div>
-	      </div>
-	    </div>
-	    <div class="col-lg-5 my-auto">
-	      <div class="device-container">
-	        <div class="device-mockup iphone6_plus portrait black">
-	          <div class="device">
-	            <div class="screen">
-	              <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-	              <img src="img/esquillidev.jpg" class="img-fluid" alt="">
-	            </div>
-	            <div class="button">
-	              <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-	            </div>
-	          </div>
-	        </div>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-	</header>
-
-	<section class="contact bg-success" id="contact">
-	<div class="container">
-	  <h2>Support
-	    me!</h2>
-	  <ul class="list-inline-item list-social">
-	    <li class="list-inline-item social-twitter">
-	      <a href="https://twitter.com/EsquilliDev">
-	        <i class="fab fa-twitter"></i>
-	      </a>
-	    </li>
-	    <li class="list-inline-item social-reddit">
-	      <a href="https://www.reddit.com/user/Esquilli">
-	        <i class="fab fa-reddit"></i>
-	      </a>
-	    </li>
-	    <li class="list-inline-item social-paypal">
-	      <a href="https://paypal.me/EsquilliDev">
-	        <i class="fab fa-paypal"></i>
-	      </a>
-	    </li>
-	  </ul>
-	</div>
-	</section>
-
-	<footer>
-	<div class="container">
-	  <p>&copy; EsquilliDev 2019. All Rights Reserved.</p>
-	</div>
-	</footer>
-
-	<!-- Bootstrap core JavaScript -->
-	<script src="vendor/jquery/jquery.min.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-	<!-- Plugin JavaScript -->
-	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-	<!-- Custom scripts for this template -->
-	<script src="js/new-age.min.js"></script>
-
-</body>
-
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-navbar justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://esquillidev.github.io/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://esquillidev.github.io/">Add to Cydia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Packages</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="row">
+      <div class="col d-flex flex-row justify-content-center">
+        <div class="wrapper centerContent">
+          <h1 class="title" id="title">EsquilliDev Repo</h1>
+          <p class="description">Your device. Your choice.</p>
+          <a href="https://twitter.com/EsquilliDev" class="fab fa-twitter" style="text-decoration: none;" rel="noopener" target="_blank" role="button"></a>
+          <a href="https://discord.gg/uJSNG3X" class="fab fa-discord" style="text-decoration: none;" rel="noopener" target="_blank" role="button"></a>
+          <a href="https://paypal.me/EsquilliDev" class="fab fa-paypal" style="text-decoration: none;" rel="noopener" target="_blank" role="button"></a>
+          <a href="mailto:midnightchips@gmail.com" class="fa fa-envelope" style="text-decoration: none;" rel="noopener" target="_blank" role="button"></a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
