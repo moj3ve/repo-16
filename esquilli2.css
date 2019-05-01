@@ -11,11 +11,11 @@ body {
 
 @media (max-width: 500px) {
     h1.title { 
-      font-size: 40px;
+      font-size: 38px;
     }
-    p.description { font-size: 22px; }
+    p.description { font-size: 21px; }
     li { font-size: 12px; }
-    a.awrapper { font-size: 25px !important;     }
+    a.awrapper { font-size: 22px !important; }
 }
 
 .bg-navbar {
