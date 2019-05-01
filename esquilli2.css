@@ -9,20 +9,32 @@ body {
   font-family: "SF Pro Display", "SF Pro", "Helvetica Neue", "Roboto", "Segoe UI", Helvetica, Arial, Verdana, sans-serif !important;
 }
 
+@media (max-width: 493px) {
+    h1.title { 
+      font-size: 47px;
+    }
+    p.description { font-size: 22px; }
+    li { font-size: 12px; }
+    a.awrapper { font-size: 25px !important; }
+}
+
 .bg-navbar {
     background: black;
 }
 
+.awrapper {
+}
+
 .wrapper {
-	overflow-x: hidden;
-	margin-left: auto;
-	margin-right: auto;
-	width: calc(100vw - 40px);
-	max-width: 760px;
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100vw - 40px);
+  max-width: 760px;
 }
 
 .centerContent {
-	width: auto !important;
+  width: auto !important;
   justify-content: center;
   align-items: center;
   background: white;
