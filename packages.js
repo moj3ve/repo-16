@@ -1,11 +1,13 @@
-document.getElementById("Lisa").addEventListener("click", packagesEventHandler);
-document.getElementById("GetLisa").addEventListener("click", packagesEventHandler);
+window.onload = function () {
+  document.getElementById("Lisa").addEventListener("click", packagesEventHandler);
+  document.getElementById("GetLisa").addEventListener("click", packagesEventHandler);
 
-document.getElementById("FakeDisabled").addEventListener("click", packagesEventHandler);
-document.getElementById("GetFakeDisabled").addEventListener("click", packagesEventHandler);
+  document.getElementById("FakeDisabled").addEventListener("click", packagesEventHandler);
+  document.getElementById("GetFakeDisabled").addEventListener("click", packagesEventHandler);
 
-document.getElementById("Screender").addEventListener("click", packagesEventHandler);
-document.getElementById("GetScreender").addEventListener("click", packagesEventHandler);
+  document.getElementById("Screender").addEventListener("click", packagesEventHandler);
+  document.getElementById("GetScreender").addEventListener("click", packagesEventHandler);
+}
 
 function packagesEventHandler(e) {
   switch(e.currentTarget.id) {
