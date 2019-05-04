@@ -11,7 +11,7 @@ body {
 
 @media (max-width: 450px) {
     h1.toptitle { 
-      font-size: 28px;
+      font-size: 32px;
     }
     h4.title { 
       font-size: 20px;
