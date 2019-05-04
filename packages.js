@@ -20,13 +20,13 @@ function packagesEventHandler(e) {
       window.open("https://esquillidev.github.io/description.html?id=com.esquilli.fakedisabled", "_self");
       break;
     case "GetFakeDisabled":
-      window.open("https://cydia.saurik.com/api/share#?source=https://esquillidev.github.io/&package=com.esquilli.fakedisabled");
+      window.open("cydia://url/https://cydia.saurik.com/api/share#?source=https://esquillidev.github.io/&amp;package=com.esquilli.fakedisabled");
       break;
     case "Screender":
       window.open("https://esquillidev.github.io/description.html?id=com.esquilli.screender", "_self");
       break;
     case "GetScreender":
-      window.open("https://cydia.saurik.com/api/share#?source=https://esquillidev.github.io/&package=com.esquilli.screender");
+      window.open("cydia://url/https://cydia.saurik.com/api/share#?source=https://esquillidev.github.io/&amp;package=com.esquilli.screender");
       break;  
   }
   e.stopPropagation();
