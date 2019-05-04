@@ -9,17 +9,8 @@ body {
   font-family: "SF Pro Display", "SF Pro", "Helvetica Neue", "Roboto", "Segoe UI", Helvetica, Arial, Verdana, sans-serif !important;
 }
 
-@media (max-width: 421px) {
-    img.topicon { width: 60px; }
-    h1.title { 
-      font-size: 33px;
-      margin-top: 5px;
-    }
-    p { font-size: 15px; }
-    li { font-size: 15px; }
-    td { font-size: 15px; }
-    div.wrapper { margin-left: -38px !important; }
-    a { margin: 0 0 0 70px !important; }
+@media (max-width: 500px) {
+    p.description { font-size: 21px; }
 }
 
 .bg-navbar {
