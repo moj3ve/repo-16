@@ -9,8 +9,25 @@ body {
   font-family: "SF Pro Display", "SF Pro", "Helvetica Neue", "Roboto", "Segoe UI", Helvetica, Arial, Verdana, sans-serif !important;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
+    h1.toptitle { 
+      font-size: 28px;
+    }
+    h4.title { 
+      font-size: 20px;
+    }
+    img.stacksIcon {
+       width: 16%;
+      height: 51%;
+      margin: 30px 20px 0 10px;
+    }
     p.description { font-size: 21px; }
+    li { font-size: 12px; }
+    a.awrapper { font-size: 22px;}
+    span.swrapper { margin-left: 260px !important;}
+    div.description {
+      font-size: 14px;
+    }
 }
 
 .bg-navbar {
@@ -29,7 +46,7 @@ hr.top {
 
 .topcontent {
   width: 350px !important;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   background: white;
@@ -42,14 +59,17 @@ hr.top {
 .wrapper {
 }
 
-.row {
-  padding: 1px 300px;
+.swrapper {
 }
 
-.topicon {
-  width: 70px;
-  display: inline-block;
-  margin: 0 10px auto;
+.row {
+  padding: 1px 50px;
+  margin-left: -500px;
+}
+
+.top {
+  display: block;
+  margin: 25px auto;
 }
 
 .content {
@@ -75,6 +95,7 @@ hr.top {
 }
 
 .card {
+  word-break: break-word;
   position: relative;
   width: auto;
   border-radius: 20px !important;
@@ -157,20 +178,22 @@ hr.top {
 
 .title {
   position: relative;
-  align: center;
   margin: 0 0 0 0;
   font-weight: bold;
 }
 
 .toptitle {
-  position: relative;
-  align: center;
-  margin: 0 0 0 0;
+  width: auto;
+  display: flex;
+  margin: 80px auto;
   font-weight: bold;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .stacksIcon {
-  width: 15.5%;
+  width: 15%;
   height: 56%;
   margin: 27px 20px 0 10px;
 }
