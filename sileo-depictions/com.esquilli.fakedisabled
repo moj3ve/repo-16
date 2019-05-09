@@ -13,7 +13,7 @@
                     "useBottomMargin": false
                 },
                 {
-                    "class": "DepictionSeparatorView",
+                    "class": "DepictionSeparatorView"
                 },
                 {
                     "itemCornerRadius": 6,
@@ -23,7 +23,7 @@
                         {
                             "accessibilityText": "Screenshot0",
                             "url": "https://i.imgur.com/0ZatM6T.jpg"
-                        }
+                        },
                         {
                             "accessibilityText": "Screenshot1",
                             "url": "https://i.imgur.com/UaWhRhX.jpg"
