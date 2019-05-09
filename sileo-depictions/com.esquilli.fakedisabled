@@ -6,19 +6,14 @@
             "tabname": "Details",
             "views": [
                 {
-                    "title": "FakeDisabled",
+                    "title": "markdown-description",
                     "useBoldText": true,
-                    "class": "DepictionSubheaderView",
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# Description\r\nCustomizable fake disabled screen that completely mimics the actual disabled screen.\r\n- Lock and fake feature\r\n- Assign Activator actions\r\n- Custom time\r\n- Custom formatting\r\n- Functional emergency button\r\n- No need to respring to apply settings\r\n\r\n",
                     "useBottomMargin": false
                 },
                 {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "Customizable fake disabled screen.",
-                    "useSpacing": true
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
+                    "class": "DepictionSeparatorView",
                 },
                 {
                     "itemCornerRadius": 6,
@@ -27,16 +22,13 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot0",
-                            "url": "https://media.giphy.com/media/SVMxoTwKqOi8Ue4TQy/giphy.gif"
+                            "url": "https://i.imgur.com/0ZatM6T.jpg"
+                        }
+                        {
+                            "accessibilityText": "Screenshot1",
+                            "url": "https://i.imgur.com/UaWhRhX.jpg"
                         }
                     ]
-                },
-                {
-                    "title": "markdown-description",
-                    "useBoldText": true,
-                    "class": "DepictionMarkdownView",
-                    "markdown": "# Description\r\nCustomizable fake disabled screen that completely mimics the actual disabled screen.\r\n- Lock and fake feature\r\n- Assign Activator actions\r\n- Custom time\r\n- Custom formatting\r\n- Functional emergency button\r\n- No need to respring to apply settings\r\n\r\n**NOTE**: This tweak was tested on iOS 11 and 12, but it may work in lower ones.",
-                    "useBottomMargin": false
                 },
                 {
                     "class": "DepictionSeparatorView"
@@ -68,11 +60,26 @@
                 {
                     "class": "DepictionSpacerView",
                     "spacing": 8
+                },
+                {
+                    "class": "DepictionButtonView",
+                    "text": "Follow me on Twitter",
+                    "action": "https://twitter.com/EsquilliDev"
+                },
+                {
+                    "class": "DepictionButtonView",
+                    "text": "Join my Discord server!",
+                    "action": "https://discord.gg/uJSNG3X"
+                },
+                {
+                    "class": "DepictionButtonView",
+                    "text": "Buy me a pizza?",
+                    "action": "https://paypal.me/EsquilliDev"
                 }
             ]
         }
     ],
-    "headerImage": "https://i.imgur.com/9hwqN4G.jpg",
+    "headerImage": "https://i.imgur.com/t93dcvI.png",
     "tintColor": "#e02626",
     "minVersion": "0.1"
 }
