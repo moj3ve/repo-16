@@ -87,7 +87,7 @@
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "- Initial release.",
-                    "useBottomMargin": false
+                    "useSpacing": false
                 }
             ]
         }
