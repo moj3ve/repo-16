@@ -1,0 +1,78 @@
+{
+    "class": "DepictionTabView",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [
+                {
+                    "title": "FakeDisabled",
+                    "useBoldText": true,
+                    "class": "DepictionSubheaderView",
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Customizable fake disabled screen.",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "itemCornerRadius": 6,
+                    "class": "DepictionScreenshotsView",
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot0",
+                            "url": "https://media.giphy.com/media/SVMxoTwKqOi8Ue4TQy/giphy.gif"
+                        }
+                    ]
+                },
+                {
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# Description\r\nCustomizable fake disabled screen that completely mimics the actual disabled screen.\r\n- Lock and fake feature\r\n- Assign Activator actions\r\n- Custom time\r\n- Custom formatting\r\n- Functional emergency button\r\n- No need to respring to apply settings\r\n\r\n**NOTE**: This tweak was tested on iOS 11 and 12, but it may work in lower ones.",
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Version",
+                    "text": "1.0.0",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Released",
+                    "text": "05-09-2019",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "title": "Developer",
+                    "text": "Esquilli",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                }
+            ]
+        }
+    ],
+    "headerImage": "https://i.imgur.com/9hwqN4G.jpg",
+    "tintColor": "#e02626",
+    "minVersion": "0.1"
+}

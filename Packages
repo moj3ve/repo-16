@@ -1,0 +1,35 @@
+Package: com.esquilli.fakedisabled
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Esquilli <esquillidev@gmail.com>
+Installed-Size: 372
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), libactivator
+Filename: ./debs/com.esquilli.fakedisabled_1.0.0_iphoneos-arm.deb
+Size: 56502
+MD5sum: 94b2fed687820a8403358f0d6ad662b1
+SHA1: dcbb499c3cda3c86e1f5e2b6b986d7a1b40ff7e1
+SHA256: 6d13ca2984be629c430455a91040a69ec9c0f06ca9374b1036bc138f43ec0a07
+Section: Tweaks
+Description: Customizable fake disabled screen.
+Author: Esquilli <esquillidev@gmail.com>
+Depiction: https://esquillidev.github.io/description.html?id=com.esquilli.fakedisabled
+Name: FakeDisabled
+Sileodepiction: https://esquillidev.github.io/sileo-depictions/com.esquilli.fakedisabled
+
+Package: com.esquilli.screender
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Esquilli <esquillidev@gmail.com>
+Installed-Size: 448
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.esquilli.screender_1.0.2_iphoneos-arm.deb
+Size: 49614
+MD5sum: 16eda8b232e5e2a79aab04aaf111ce5c
+SHA1: a37eaa0f21df3d4f047124f1894662537b5de027
+SHA256: 01196de6b086e17281edb48b578794790adc1c877cda6f20259b4a72509e6d43
+Section: Tweaks
+Description: Delete screenshots via Control Center using a Tinder-like interface.
+Author: Esquilli <esquillidev@gmail.com>
+Depiction: https://esquillidev.github.io/description.html?id=com.esquilli.screender
+Name: Screender
+
