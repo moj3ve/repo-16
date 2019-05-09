@@ -60,17 +60,17 @@
                 },
                 {
                     "class": "DepictionTableButtonView",
-                    "text": "Follow me on Twitter",
+                    "title": "Follow me on Twitter",
                     "action": "https://twitter.com/EsquilliDev"
                 },
                 {
                     "class": "DepictionTableButtonView",
-                    "text": "Join my Discord server!",
+                    "title": "Join my Discord server!",
                     "action": "https://discord.gg/uJSNG3X"
                 },
                 {
                     "class": "DepictionTableButtonView",
-                    "text": "Buy me a pizza?",
+                    "title": "Buy me a pizza?",
                     "action": "https://paypal.me/EsquilliDev"
                 }
             ]
@@ -82,7 +82,9 @@
                 {
                     "class": "DepictionSubheaderView",
                     "title": "1.0.0",
-                    "useBoldText": true,
+                    "useBoldText": true
+                },
+                {
                     "class": "DepictionMarkdownView",
                     "markdown": "- Initial release.",
                     "useBottomMargin": false
