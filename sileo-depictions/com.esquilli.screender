@@ -35,12 +35,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "1.0.0",
+                    "text": "1.0.2",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "title": "Released",
-                    "text": "05-09-2019",
+                    "text": "Apr 7, 2019",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -58,19 +58,46 @@
                     "spacing": 8
                 },
                 {
-                    "class": "DepictionButtonView",
+                    "class": "DepictionTableButtonView",
                     "text": "Follow me on Twitter",
                     "action": "https://twitter.com/EsquilliDev"
                 },
                 {
-                    "class": "DepictionButtonView",
+                    "class": "DepictionTableButtonView",
                     "text": "Join my Discord server!",
                     "action": "https://discord.gg/uJSNG3X"
                 },
                 {
-                    "class": "DepictionButtonView",
+                    "class": "DepictionTableButtonView",
                     "text": "Buy me a pizza?",
                     "action": "https://paypal.me/EsquilliDev"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0.2",
+                    "useBoldText": true,
+                    "markdown": "- Added a new button, thus changing the way Screender works.",
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0.1",
+                    "useBoldText": true,
+                    "markdown": "- I don't remember what changed here.",
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0.0",
+                    "useBoldText": true,
+                    "markdown": "- Initial release.",
+                    "useBottomMargin": false
                 }
             ]
         }

@@ -41,7 +41,7 @@
                 },
                 {
                     "title": "Released",
-                    "text": "05-09-2019",
+                    "text": "Apr 14, 2019",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -83,9 +83,9 @@
                     "class": "DepictionSubheaderView",
                     "title": "1.0.0",
                     "useBoldText": true,
-                    "markdown": "\r\n- Initial release",
+                    "markdown": "- Initial release.",
                     "useBottomMargin": false
-                },
+                }
             ]
         }
     ],
