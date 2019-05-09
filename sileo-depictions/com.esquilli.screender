@@ -9,7 +9,7 @@
                     "title": "markdown-description",
                     "useBoldText": true,
                     "class": "DepictionMarkdownView",
-                    "markdown": "# Description\r\nCustomizable fake disabled screen that completely mimics the actual disabled screen.\r\n- Lock and fake feature\r\n- Assign Activator actions\r\n- Custom time\r\n- Custom formatting\r\n- Functional emergency button\r\n- No need to respring to apply settings\r\n\r\n",
+                    "markdown": "# Description\r\nDelete screenshots via Control Center with a Tinder-like interface.\r\n\r\n- Swipe left to skip screenshot\r\n- Swipe right to add screenshot to a queue\r\n- Press reset button to reset everything and start all over again\r\n- Press load button to load the next 5 screenshots starting from the current one\r\n- Press thrash button to delete screenshots added to the queue\r\n- Hold Screender CC toggle to select other options",
                     "useBottomMargin": false
                 },
                 {
@@ -22,11 +22,11 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot0",
-                            "url": "https://i.imgur.com/0ZatM6T.jpg"
+                            "url": "https://i.imgur.com/N10ZAsr.jpg"
                         },
                         {
                             "accessibilityText": "Screenshot1",
-                            "url": "https://i.imgur.com/UaWhRhX.jpg"
+                            "url": "https://i.imgur.com/LawDWiq.jpg"
                         }
                     ]
                 },

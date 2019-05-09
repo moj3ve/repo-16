@@ -23,13 +23,14 @@ Maintainer: Esquilli <esquillidev@gmail.com>
 Installed-Size: 448
 Depends: mobilesubstrate, com.opa334.ccsupport
 Filename: ./debs/com.esquilli.screender_1.0.2_iphoneos-arm.deb
-Size: 49614
-MD5sum: 16eda8b232e5e2a79aab04aaf111ce5c
-SHA1: a37eaa0f21df3d4f047124f1894662537b5de027
-SHA256: 01196de6b086e17281edb48b578794790adc1c877cda6f20259b4a72509e6d43
+Size: 49590
+MD5sum: f3150e906430004afe63af7c90dd2320
+SHA1: d4ed0e4d05898236a539e3890c701c6ae93d4b84
+SHA256: d95fba4b1f656979d830db7a4dc06a2eda9a5e8d751f01d1ee2d3766f50421d7
 Section: Tweaks
 Description: Delete screenshots via Control Center using a Tinder-like interface.
 Author: Esquilli <esquillidev@gmail.com>
 Depiction: https://esquillidev.github.io/description.html?id=com.esquilli.screender
 Name: Screender
+Sileodepiction: https://esquillidev.github.io/sileo-depictions/com.esquilli.screender
 
