@@ -82,6 +82,7 @@
                     "class": "DepictionSubheaderView",
                     "title": "1.0.2",
                     "useBoldText": true,
+                    "class": "DepictionMarkdownView",
                     "markdown": "- Added a new button, thus changing the way Screender works.",
                     "useBottomMargin": false
                 },
@@ -89,6 +90,7 @@
                     "class": "DepictionSubheaderView",
                     "title": "1.0.1",
                     "useBoldText": true,
+                    "class": "DepictionMarkdownView",
                     "markdown": "- I don't remember what changed here.",
                     "useBottomMargin": false
                 },
@@ -96,6 +98,7 @@
                     "class": "DepictionSubheaderView",
                     "title": "1.0.0",
                     "useBoldText": true,
+                    "class": "DepictionMarkdownView",
                     "markdown": "- Initial release.",
                     "useBottomMargin": false
                 }
