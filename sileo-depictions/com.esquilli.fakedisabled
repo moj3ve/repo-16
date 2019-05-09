@@ -6,16 +6,6 @@
             "tabname": "Details",
             "views": [
                 {
-                    "title": "markdown-description",
-                    "useBoldText": true,
-                    "class": "DepictionMarkdownView",
-                    "markdown": "# Description\r\nCustomizable fake disabled screen that completely mimics the actual disabled screen.\r\n- Lock and fake feature\r\n- Assign Activator actions\r\n- Custom time\r\n- Custom formatting\r\n- Functional emergency button\r\n- No need to respring to apply settings\r\n\r\n",
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
                     "itemCornerRadius": 6,
                     "class": "DepictionScreenshotsView",
                     "itemSize": "{160, 275.41333333333336}",
@@ -29,6 +19,17 @@
                             "url": "https://i.imgur.com/UaWhRhX.jpg"
                         }
                     ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Customizable fake disabled screen that completely mimics the actual disabled screen.\r\n- Lock and fake feature\r\n- Assign Activator actions\r\n- Custom time\r\n- Custom formatting\r\n- Functional emergency button\r\n- No need to respring to apply settings\r\n\r\n",
+                    "useBottomMargin": false
                 },
                 {
                     "class": "DepictionSeparatorView"
@@ -58,20 +59,33 @@
                     "spacing": 8
                 },
                 {
-                    "class": "DepictionButtonView",
+                    "class": "DepictionTableButtonView",
                     "text": "Follow me on Twitter",
                     "action": "https://twitter.com/EsquilliDev"
                 },
                 {
-                    "class": "DepictionButtonView",
+                    "class": "DepictionTableButtonView",
                     "text": "Join my Discord server!",
                     "action": "https://discord.gg/uJSNG3X"
                 },
                 {
-                    "class": "DepictionButtonView",
+                    "class": "DepictionTableButtonView",
                     "text": "Buy me a pizza?",
                     "action": "https://paypal.me/EsquilliDev"
                 }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0.0",
+                    "useBoldText": true,
+                    "markdown": "\r\n- Initial release",
+                    "useBottomMargin": false
+                },
             ]
         }
     ],

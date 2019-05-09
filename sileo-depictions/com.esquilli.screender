@@ -6,16 +6,6 @@
             "tabname": "Details",
             "views": [
                 {
-                    "title": "markdown-description",
-                    "useBoldText": true,
-                    "class": "DepictionMarkdownView",
-                    "markdown": "# Description\r\nDelete screenshots via Control Center with a Tinder-like interface.\r\n\r\n- Swipe left to skip screenshot\r\n- Swipe right to add screenshot to a queue\r\n- Press reset button to reset everything and start all over again\r\n- Press load button to load the next 5 screenshots starting from the current one\r\n- Press thrash button to delete screenshots added to the queue\r\n- Hold Screender CC toggle to select other options",
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
                     "itemCornerRadius": 6,
                     "class": "DepictionScreenshotsView",
                     "itemSize": "{160, 275.41333333333336}",
@@ -29,6 +19,16 @@
                             "url": "https://i.imgur.com/LawDWiq.jpg"
                         }
                     ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "markdown-description",
+                    "useBoldText": true,
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# Description\r\nDelete screenshots via Control Center with a Tinder-like interface.\r\n\r\n- Swipe left to skip screenshot\r\n- Swipe right to add screenshot to a queue\r\n- Press reset button to reset everything and start all over again\r\n- Press load button to load the next 5 screenshots starting from the current one\r\n- Press thrash button to delete screenshots added to the queue\r\n- Hold Screender CC toggle to select other options",
+                    "useBottomMargin": false
                 },
                 {
                     "class": "DepictionSeparatorView"
