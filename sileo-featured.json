@@ -4,10 +4,10 @@
    "itemCornerRadius":10,
    "banners":[  
       {  
-         "url":"https://i.imgur.com/JcLUZAU.png",
+         "url":"https://i.imgur.com/oNn4f5P.jpg",
          "title":"Lisa",
          "package":"com.esquilli.lisa",
-         "hideShadow":false
+         "hideShadow":true
       },
    ]
 }
