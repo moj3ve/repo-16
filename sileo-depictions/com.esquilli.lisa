@@ -12,19 +12,27 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot0",
-                            "url": "https://i.imgur.com/N10ZAsr.jpg"
+                            "url": "https://i.imgur.com/1FdH6ED.png"
                         },
                         {
                             "accessibilityText": "Screenshot1",
-                            "url": "https://i.imgur.com/LawDWiq.jpg"
+                            "url": "https://i.imgur.com/UtBLAAx.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot2",
+                            "url": "https://i.imgur.com/CacUQHd.jpg"
                         }
                     ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
                 },
                 {
                     "title": "markdown-description",
                     "useBoldText": true,
                     "class": "DepictionMarkdownView",
-                    "markdown": "\r\nDelete screenshots via Control Center with a Tinder-like interface.\r\n\r\n- Swipe left to skip screenshot\r\n- Swipe right to add screenshot to a queue\r\n- Press reset button to reset everything and start all over again\r\n- Press load button to load the next 5 screenshots starting from the current one\r\n- Press thrash button to delete screenshots added to the queue\r\n- Hold Screender CC toggle to select other options",
+                    "markdown": "Customize your Lock Screen notifications experience\r\n\r\n- Choose what elements you want to see in the dismissible screen\r\n- Customize the tweak's behavior\r\n- Enable/disable animations\r\n- Works perfectly with tweaks such as Notifica, Dots, ShortLook, etc.",
                     "useBottomMargin": false
                 },
                 {
@@ -32,12 +40,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "1.0.2",
+                    "text": "1.0.0",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "title": "Released",
-                    "text": "Apr 7, 2019",
+                    "text": "May 10, 2019",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -75,26 +83,6 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "1.0.2",
-                    "useBoldText": true
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "- Added a new button, thus changing the way Screender works.",
-                    "useSpacing": false
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "1.0.1",
-                    "useBoldText": true
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "- I don't remember what changed here.",
-                    "useSpacing": false
-                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "1.0.0",
