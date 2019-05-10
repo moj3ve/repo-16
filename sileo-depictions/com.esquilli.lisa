@@ -32,7 +32,7 @@
                     "title": "markdown-description",
                     "useBoldText": true,
                     "class": "DepictionMarkdownView",
-                    "markdown": "Customize your Lock Screen notifications experience\r\n\r\n- Choose what elements you want to see in the dismissible screen\r\n- Customize the tweak's behavior\r\n- Enable/disable animations\r\n- Works perfectly with tweaks such as Notifica, Dots, ShortLook, etc.",
+                    "markdown": "Customize your Lock Screen notifications experience\r\n\r\n-   Choose what elements you want to see in the dismissible screen\r\n-   Customize the tweak's behavior\r\n-   Enable/disable animations\r\n-   Fully support OLED displays\r\n    \r\n-   A12 devices supported\r\n    \r\nWorks perfectly with tweaks such as Notifica, Dots, ShortLook, etc.",
                     "useBottomMargin": false
                 },
                 {
