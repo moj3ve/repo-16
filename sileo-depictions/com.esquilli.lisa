@@ -1,16 +1,13 @@
 {
     "class": "DepictionTabView",
-    "tabs": [
-        {
+    "tabs": [{
             "class": "DepictionStackView",
             "tabname": "Details",
-            "views": [
-                {
+            "views": [{
                     "itemCornerRadius": 6,
                     "class": "DepictionScreenshotsView",
                     "itemSize": "{160, 275.41333333333336}",
-                    "screenshots": [
-                        {
+                    "screenshots": [{
                             "accessibilityText": "Screenshot0",
                             "url": "https://i.imgur.com/1FdH6ED.png"
                         },
@@ -82,8 +79,7 @@
         {
             "class": "DepictionStackView",
             "tabname": "Changelog",
-            "views": [
-                {
+            "views": [{
                     "class": "DepictionSubheaderView",
                     "title": "1.0.1",
                     "useBoldText": true
@@ -92,7 +88,7 @@
                     "class": "DepictionMarkdownView",
                     "markdown": "- Added an option to only activate Lisa when new notifications arrives.\r\n- Fixed Lockscreen time not showing.\r\n- Fixed background alpha not changing.\r\n- Fixed Support Me links not working.\r\n- Redesigned the Customization sub menu.",
                     "useSpacing": false
-                }
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "1.0.0",
