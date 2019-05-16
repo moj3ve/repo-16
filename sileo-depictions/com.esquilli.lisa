@@ -87,7 +87,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Added customizable haptic feedback!\r\n- Added and "Always ON Lisa" option.\r\n- Added an option to only activate Lisa when media is playing.\r\n- Added new options to hide LS page dots, Artsy background and Asteroid.\r\n- Fixed an issue with vertical offset editor.\r\n",
+                    "markdown": "- Added customizable haptic feedback!\r\n- Added and \"Always ON Lisa\" option.\r\n- Added an option to only activate Lisa when media is playing.\r\n- Added new options to hide LS page dots, Artsy background and Asteroid.\r\n- Fixed an issue with vertical offset editor.",
                     "useSpacing": false
                 },
                 {
