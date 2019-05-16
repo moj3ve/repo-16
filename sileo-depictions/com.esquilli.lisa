@@ -37,12 +37,12 @@
                 },
                 {
                     "title": "Version",
-                    "text": "1.0.1",
+                    "text": "1.0.2",
                     "class": "DepictionTableTextView"
                 },
                 {
                     "title": "Released",
-                    "text": "May 11, 2019",
+                    "text": "May 10, 2019",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -79,7 +79,18 @@
         {
             "class": "DepictionStackView",
             "tabname": "Changelog",
-            "views": [{
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0.2",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added customizable haptic feedback!\r\n- Added and "Always ON Lisa" option.\r\n- Added an option to only activate Lisa when media is playing.\r\n- Added new options to hide LS page dots, Artsy background and Asteroid.\r\n- Fixed an issue with vertical offset editor.\r\n",
+                    "useSpacing": false
+                },
+                {
                     "class": "DepictionSubheaderView",
                     "title": "1.0.1",
                     "useBoldText": true
