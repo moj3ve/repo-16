@@ -37,7 +37,7 @@
                 },
                 {
                     "title": "Version",
-                    "text": "1.0.2",
+                    "text": "1.0.3",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -80,6 +80,16 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0.3",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Lisa's settings visual update.\r\n- Added a new \"Notifications\" sub menu.\r\n- Added a customizable pull down to clear notifications feature.\r\n- Added options to disable Today View and Camera swipes while Lisa is active.\r\n- Fixed a bug that would crash devices on iOS 12.4.\r\n- Fixed a bug that would freeze/crash the device if the user toggle the DND CC toggle repeatedly.",
+                    "useSpacing": false
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "1.0.2",

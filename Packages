@@ -17,16 +17,16 @@ Name: FakeDisabled
 Sileodepiction: https://esquillidev.github.io/sileo-depictions/com.esquilli.fakedisabled
 
 Package: com.esquilli.lisa
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm
 Maintainer: Esquilli <esquillidev@gmail.com>
-Installed-Size: 1092
+Installed-Size: 1144
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0)
-Filename: ./debs/com.esquilli.lisa_1.0.2_iphoneos-arm.deb
-Size: 577058
-MD5sum: e4ce9a699480ba5bd741256bd2b9f020
-SHA1: b8366cacb132278e04543751ece3882fdef697a8
-SHA256: 678fc97a8f072a6e6d07e174f3852af773535cb3009c475bd2052e90610c7b0a
+Filename: ./debs/com.esquilli.lisa_1.0.3_iphoneos-arm.deb
+Size: 602158
+MD5sum: 13f5b6a3d1d3ac0153f2b24ed9762f48
+SHA1: ccd0e97a0aebf92f30300825a8d311465bc368b0
+SHA256: ecda29c0b3d3deba8e298183219554c52394e567fb53ac77361de43a474e5d10
 Section: Tweaks
 Description: Customize your Lock Screen experience
 Author: Esquilli <esquillidev@gmail.com>
