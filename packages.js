@@ -15,7 +15,7 @@ function packagesEventHandler(e) {
       window.open("https://esquillidev.github.io/description.html?id=com.esquilli.lisa", "_self");
       break;
     case "GetLisa":
-      alert("Lisa hasn't been released yet.");
+      window.open("https://cydia.saurik.com/api/share#?source=https://esquillidev.github.io/&package=com.esquilli.lisa");
       break;
     case "FakeDisabled":
       window.open("https://esquillidev.github.io/description.html?id=com.esquilli.fakedisabled", "_self");
