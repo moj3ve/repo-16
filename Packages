@@ -52,3 +52,18 @@ Depiction: https://esquillidev.github.io/description.html?id=com.esquilli.screen
 Name: Screender
 Sileodepiction: https://esquillidev.github.io/sileo-depictions/com.esquilli.screender
 
+Package: me.nepeta.libnepeta
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: Nepeta
+Installed-Size: 208
+Filename: ./debs/me.nepeta.libnepeta_0.1.1_iphoneos-arm.deb
+Size: 15942
+MD5sum: 9c6b0244143ed613e6d4b2394b165545
+SHA1: 297f7b56a8ab255334e8d9cc5f82a20c711222de
+SHA256: 80e4c31f17da3748deb9c329ad41ea6eae6fdf609547125f9e729ffb16b113d2
+Section: Development
+Description: Nepeta's color utils
+Author: Nepeta
+Name: libnepeta
+
