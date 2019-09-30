@@ -82,6 +82,16 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "1.0.4",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fully customizable edge border.\r\n- Tap to reveal notifications.\r\n- Options to hide notifications and notifications background.\r\n- Option to hide SimpleLS.\r\n- Fixed phone freezing after phone call.",
+                    "useSpacing": false
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "1.0.3",
                     "useBoldText": true
                 },

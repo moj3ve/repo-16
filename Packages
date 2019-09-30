@@ -34,6 +34,24 @@ Depiction: https://esquillidev.github.io/description.html?id=com.esquilli.lisa
 Name: Lisa
 Sileodepiction: https://esquillidev.github.io/sileo-depictions/com.esquilli.lisa
 
+Package: com.esquilli.lisa
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: Esquilli <esquillidev@gmail.com>
+Installed-Size: 1188
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker (>= 1.0.3), me.nepeta.libnepeta, ws.hbang.common (>= 1.11), applist, firmware (>= 11.0)
+Filename: ./debs/com.esquilli.lisa_1.0.4_iphoneos-arm.deb
+Size: 618942
+MD5sum: a414046839a3fdc6459f663ee3da6576
+SHA1: d6eb40f4cf094a86f30d82c614c53fe83e967065
+SHA256: 43b77df5e91ba6c3edd1933c0289665a84ff731aedd87eaf587d42ece6b6f37a
+Section: Tweaks
+Description: Customize your Lock Screen experience
+Author: Esquilli <esquillidev@gmail.com>
+Depiction: https://esquillidev.github.io/description.html?id=com.esquilli.lisa
+Name: Lisa
+Sileodepiction: https://esquillidev.github.io/sileo-depictions/com.esquilli.lisa
+
 Package: com.esquilli.screender
 Version: 1.0.2
 Architecture: iphoneos-arm
