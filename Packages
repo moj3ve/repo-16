@@ -77,10 +77,10 @@ Maintainer: Esquilli <esquillidev@gmail.com>
 Installed-Size: 3028
 Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker (>= 1.0.3), me.nepeta.libnepeta, ws.hbang.common (>= 1.11), applist, firmware (>= 11.0)
 Filename: ./debs/com.esquilli.lisa_2.0.1_iphoneos-arm.deb
-Size: 1982828
-MD5sum: 19ac7126eb638855367090206b79ab73
-SHA1: 572a92c257fc9213ed92e8fcf4a9f657d7040701
-SHA256: 6f6d0de4afaef3cb2babb71d09c2eabf08631347aae56dc89bf5a5db027145c4
+Size: 1982930
+MD5sum: f8e9bdd85d2e92ddcf1f6cb1e39c8121
+SHA1: f440ee76d32ed9e1490195c983e647d4e534124d
+SHA256: f483d02dde1fb08dbef24bfc326a8ae7fad8ac4438fce66c6dd783785d355fa7
 Section: Tweaks
 Description: Customize your Lock Screen experience
 Author: Esquilli <esquillidev@gmail.com>
