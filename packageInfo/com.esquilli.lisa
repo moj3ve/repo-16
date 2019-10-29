@@ -1,6 +1,6 @@
 {
 	"name": "Lisa",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "<p>Customize your Lock Screen notifications experience</p><ul><li>Choose what elements you want to see in the dismissible screen</li><li>Customize the tweak's behavior</li><li>Enable/disable animations</li><li>Fully support OLED displays</li><li>A12 devices supported</li></ul><p>Works perfectly with tweaks such as Notifica, Dots, ShortLook, etc.</p>",
 	"screenshot": "<img class='screenshot' src='https://i.imgur.com/vyvV9rA.png'/><img class='screenshot' src='https://i.imgur.com/UHBNsi2.png'/><img class='screenshot' src='https://i.imgur.com/EIZwqLY.png'/><img class='screenshot' src='https://i.imgur.com/8ud7p6O.png'/>",
 	"whatsnew": "<ul><li>Apple Watch fix (screen not waking up when connected)</li><li>Battery animations</li><li>Bug fixes</li><li>Control Center (CC) module</li><li>Dismiss in pocket</li><li>Edge matching artwork color</li><li>Enabled AOD capabilities</li><li>Hide Slyd</li></ul>",
