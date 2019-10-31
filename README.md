@@ -3,17 +3,9 @@
 
 Here I host my webpage and all things related to tweaks and .deb distribution.
 
-# Requirements
-1.Windows machine.
-2.USB cable.
-3.Esquilli Nonce Getter from here (this .zip file already includes libmobiledevice and my script).
-
-# Running the tool
-1.Disable your anti-virus (they tend to block this type of script).
-2.Download and unzip the file from above.
-3.Run the "getnonce.exe" program.
-4.Open the "nonce.txt" file for the output of the script.
-5.Done!
+# Usage
+1. Add the repo https://esquillidev.github.io to your favorite package manager
+2. Enjoy!
 
 # Copyright
 Copyright 2019 EsquilliDev
