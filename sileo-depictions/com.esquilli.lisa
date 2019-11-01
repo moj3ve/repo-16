@@ -41,7 +41,7 @@
                 },
                 {
                     "title": "Version",
-                    "text": "2.0.2,
+                    "text": "2.0.2",
                     "class": "DepictionTableTextView"
                 },
                 {
@@ -86,7 +86,7 @@
             "views": [
                 {   
                     "class": "DepictionSubheaderView",
-                    "title": "2.0.2",
+                    "title": "Version 2.0.2",
                     "useBoldText": true
                 },
                 {
@@ -94,19 +94,26 @@
                     "markdown": "- Fixed a bug with "Wake up after..." feature.\r\n",
                     "useSpacing": false
                 },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
                 {   
                     "class": "DepictionSubheaderView",
-                    "title": "2.0.1",
+                    "title": "Version 2.0.1",
                     "useBoldText": true
                 },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "- Added option to wake up screen after locking device.\r\n",
                     "useSpacing": false
+                },{
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
                 },
                 {   
                     "class": "DepictionSubheaderView",
-                    "title": "2.0",
+                    "title": "Version 2.0",
                     "useBoldText": true
                 },
                 {
@@ -115,8 +122,12 @@
                     "useSpacing": false
                 },
                 {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
                     "class": "DepictionSubheaderView",
-                    "title": "1.0.4",
+                    "title": "Version 1.0.4",
                     "useBoldText": true
                 },
                 {
@@ -125,8 +136,12 @@
                     "useSpacing": false
                 },
                 {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
                     "class": "DepictionSubheaderView",
-                    "title": "1.0.3",
+                    "title": "Version 1.0.3",
                     "useBoldText": true
                 },
                 {
@@ -135,8 +150,12 @@
                     "useSpacing": false
                 },
                 {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
                     "class": "DepictionSubheaderView",
-                    "title": "1.0.2",
+                    "title": "Version 1.0.2",
                     "useBoldText": true
                 },
                 {
@@ -145,8 +164,12 @@
                     "useSpacing": false
                 },
                 {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
                     "class": "DepictionSubheaderView",
-                    "title": "1.0.1",
+                    "title": "Version 1.0.1",
                     "useBoldText": true
                 },
                 {
@@ -155,8 +178,12 @@
                     "useSpacing": false
                 },
                 {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
                     "class": "DepictionSubheaderView",
-                    "title": "1.0.0",
+                    "title": "Version 1.0.0",
                     "useBoldText": true
                 },
                 {
