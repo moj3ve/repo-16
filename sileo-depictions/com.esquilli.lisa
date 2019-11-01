@@ -91,7 +91,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Fixed a bug with "Wake up after..." feature.\r\n",
+                    "markdown": "- Fixed a bug with \"Wake up after...\" feature.\r\n",
                     "useSpacing": false
                 },
                 {
