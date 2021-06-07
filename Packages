@@ -1,0 +1,16 @@
+Package: com.esquilli.testpackage
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: Esquilli
+Installed-Size: 120
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.esquilli.testpackage_0.0.1-1+debug_iphoneos-arm.deb
+Size: 2050
+MD5sum: 3c5c96303638a20828ebbc94d83c8ca8
+SHA1: d0cfd877da10c572f32be6de3f140f9301190d6b
+SHA256: e4eab0be390161fd0b73fa6944ce47a5588bc227872c53720bd3dad05a92fe7d
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Esquilli
+Name: TestPackage
+
